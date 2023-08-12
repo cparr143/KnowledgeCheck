@@ -57,11 +57,14 @@ body {
 }
 
 .hero-content {
+    display: flex;
     width: 100%;
     max-width: 1000px;
     text-align: center;
     padding: 24px;
     margin: 0 auto;
+    justify-content: center;
+    align-items: center;    
 }
 
 .aboutme-container {
@@ -159,8 +162,8 @@ a:hover, a:active {
     width: 100%;
     max-width: 260px;
     background: #f08527;
-    color: #1b1b27;
-    border: 2px solid #f08527;
+    color: #74b44a;
+    border: 2px solid #74b44a;
     border-radius: 12px;
     padding: 12px 24px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -174,12 +177,12 @@ a:hover, a:active {
 
 .hero-content .btn:focus {
     background: #333333;
-    color: #F1F1F1;
+    color: #ce7a0c;
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
     background: #333333;
-    color: #F1F1F1;
+    color: #ed65d8;
     border: 2px solid #666666;
 }
 
